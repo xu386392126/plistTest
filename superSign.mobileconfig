@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <dict>
+            <key>URL</key>
+            <string>www.baidu.com</string>
+            <key>DeviceAttributes</key>
+            <array>
+                <string>UDID</string>
+                <string>IMEI</string>
+                <string>ICCID</string>
+                <string>VERSION</string>
+                <string>PRODUCT</string>
+            </array>
+        </dict>
+        <key>PayloadOrganization</key>
+        <string>GuangdongQi</string><!--组织名称-->
+        <key>PayloadDisplayName</key>
+        <string>AppFree</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadUUID</key>
+        <string>9CF421B3-9853-4454-BC8A-982CBD3C907C</string><!--自己随机填写的唯一字符串，http://www.guidgen.com/ 可以生成-->
+        <key>PayloadIdentifier</key>
+        <string>com.gpon.profile-service</string>
+        <key>PayloadDescription</key>
+        <string>This temporary profile will be used to find and display your current device's UDID.</string>
+        <key>PayloadType</key>
+        <string>Profile Service</string>
+    </dict>
+</plist>
